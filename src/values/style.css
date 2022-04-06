@@ -1,0 +1,20 @@
+.top-header{
+    -fx-background-color: #A22C12;
+}
+
+.side-bar{
+    -fx-background-color: #ADACA9;
+}
+
+
+
+
+.button{
+    -fx-background-color: #A22C12;
+    -fx-border-radius: 30;
+    -fx-width: 900;
+}
+
+.image-radius{
+    -fx-border-radius: 100;
+}
