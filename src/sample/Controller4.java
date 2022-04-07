@@ -53,7 +53,7 @@ public class Controller4 {
 
         if (withdrawal.equals("") || customername.equals("")) {
             JOptionPane.showMessageDialog(null, "Customer name or amount empty");
-        } else if (withdrawal.matches("^[a-zA-Z0-9]+$")) {
+        } else if (withdrawal.matches("^[a-zA-Z]+$")) {
             System.out.println("value contains alphabets try again");
             JOptionPane.showMessageDialog(null, "invalid input please enter the right amount");
             amount_withdrawal.setText("");

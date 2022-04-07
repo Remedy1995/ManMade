@@ -67,7 +67,7 @@ public class Controller3 {
 
             }
 
-            else if(checkdeposit.matches("^[a-zA-Z0-9]+$")){
+            else if(checkdeposit.matches("^[a-zA-Z]+$")){
                 System.out.println("value contains alphabets try again");
                 JOptionPane.showMessageDialog(null, "invalid input please enter the right amount");
 

@@ -51,7 +51,7 @@ public class Controller5 {
         String year = yearduration.getText();
         if (getrate.isEmpty() || amountLoanText.equals("") || year.equals("")) {
             JOptionPane.showMessageDialog(null, "please input the missing fields");
-        } else if (amountLoanText.matches("^[a-zA-Z0-9]+$") || year.matches("^[a-zA-Z0-9]+$")) {
+        } else if (amountLoanText.matches("^[a-zA-Z]+$") || year.matches("^[a-zA-Z0-9]+$")) {
             System.out.println("value contains alphabets try again");
             JOptionPane.showMessageDialog(null, "invalid input please enter the right amount");
             rate.setMin(0);
