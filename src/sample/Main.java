@@ -30,7 +30,7 @@ public class Main extends Application {
         //create all tables
         CreateTables createTables=new CreateTables();
         InsertData insertData=new InsertData();
-        insertData.getData();
+//
 
         dbm = connection.getMetaData();
         tables=dbm. getTables(null, null, "customerdeposit", null);
@@ -41,6 +41,7 @@ public class Main extends Application {
 
         else {
             createTables.getTable();
+            insertData.getData();
         }
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Microfinance Application");

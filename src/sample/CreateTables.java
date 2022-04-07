@@ -34,9 +34,9 @@ public class CreateTables {
                     + "username VARCHAR(100),"
                     + "password INT(100), "
                     + "PRIMARY KEY(idNo))";
-            statement1 = connection.createStatement();
+            statement = connection.createStatement();
             //This line has the issue
-            statement1.executeUpdate(User);
+            statement.executeUpdate(User);
             System.out.println("Table User Created");
 
 
