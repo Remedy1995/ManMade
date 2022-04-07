@@ -5,6 +5,7 @@
       <w>addbutton</w>
       <w>backbutton</w>
       <w>checkifuserexists</w>
+      <w>checkname</w>
       <w>customerdeposit</w>
       <w>customername</w>
       <w>enteredamount</w>
@@ -12,6 +13,7 @@
       <w>getrate</w>
       <w>gettotal</w>
       <w>goback</w>
+      <w>microfinance</w>
       <w>nametext</w>
       <w>remainingbalance</w>
       <w>showimage</w>
